@@ -1,0 +1,109 @@
+<% layout('layouts/boilerplate')%>
+<section class="background4">
+<h1 class="fw-normal " style=" margin-left: 35rem; font-size: 55px; color: rgb(192, 214, 217);">Contact Us</h1>
+
+
+<div class="section bg-info p-3 text-light bg-opacity-10 mb-4  " style="margin-left:25rem; width:50%;">
+    <form action ="/enroll" method="POST">
+        <div class="row mb-3">
+        <div class="col-md-12 form-item">
+            <input type="hidden" name="data[Enquiry][enquiry_type]" id="EnquiryEnquiryType_" value="">
+            <input type="radio" name="data[Enquiry][enquiry_type]" id="EnquiryEnquiryTypeEnquiry" value="Enquiry" class="cust-radio" required="required" checked>
+            <label for="EnquiryEnquiryTypeEnquiry" class="lbl-radio me-5">Enquiry</label>
+             <input type="radio" name="data[Enquiry][enquiry_type]" id="EnquiryEnquiryTypeComplaints" value="Complaints" class="cust-radio" required="required">
+            <label for="EnquiryEnquiryTypeComplaints" class="lbl-radio me-5">Complaints</label>
+            <input type="radio" name="data[Enquiry][enquiry_type]" id="EnquiryEnquiryTypeSuggestions" value="Suggestions" class="cust-radio" required="required">
+            <label for="EnquiryEnquiryTypeSuggestions" class="lbl-radio me-5">Suggestions</label>
+            <input type="radio" name="data[Enquiry][enquiry_type]" id="EnquiryEnquiryTypeCompliments" value="Compliments" class="cust-radio" required="required">
+             <label for="EnquiryEnquiryTypeCompliments" class="lbl-radio me-5">Compliments</label>
+    
+
+        <div class="mb-3 ">
+            <label class="form-label" for ="name"> Name</label>
+            <input class="form-control" type="text" id ="name" name="ename">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for ="course">Course Name</label>
+            <input class="form-control" type="text" id ="course" name="ecourse">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for ="email"> Email</label>
+            <input class="form-control" type="text" id ="email" name="eemail">
+        </div>
+        
+            <div class="mb-3">
+                <label class="form-label" for="mobile">Mobile No</label>
+                <input class="form-control" type="text" id ="mobile" name="emobile">
+            </div>
+           
+            
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label class="form-label" for="class">Class</label> 
+                            <select class="form-select" aria-label="Default select example" name="eclass">
+                                <option selected >Selected Class</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="10+">10+</option>
+                              </select>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-3">
+                            <label class="form-label" for="class">Gender</label> 
+   
+                            <select class="form-select" aria-label="Default select example" name="egender">
+                                <option selected>Selected Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option></select></div>
+                             
+                            </div>
+                    </div>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" name="message" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comments</label>
+                  </div>
+
+
+                  
+                  <button type="submit" class="btn btn-outline-light">Submit</button> 
+                </form></div><br>
+            </div>
+           
+<div class="section" >
+            <div class="row mb-3 " style="margin-left: 10rem;"> 
+                <div class="col-sm-6">
+                  <div class="card"  style="margin-left: 10rem;">
+                    <div class="card-body">
+                      <h4 class="card-title">Address</h4>
+                      <ul class="list-unstyled">
+                        <li>
+                            <div class="add-icon"><i class="fa fa-map-marker"></i></div>
+                            <div class="add-text"><span>Address</span><br>
+                            F/8, 1st Floor, Kurmanchal Nagar <br>IzzatNagar Bareilly</div>
+                        </li>
+                   
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card" style="margin-right: 13rem;">
+                    <div class="card-body" >
+                      <h4 class="card-title">Any query?</h4>
+                      <li>
+                        <div class="add-icon"><i class="fa fa-phone"></i></div>
+                        <div class="add-text"><span>Contact Number</span><br>
+                        011-285687988<br>011-285687966<br><br></div>  </li>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+                </div>
+              </section>
+            

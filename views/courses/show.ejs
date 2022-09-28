@@ -1,0 +1,36 @@
+<% layout('layouts/boilerplate')%>
+<section class="background3">
+  <div class="row">
+    <h1 class="fw-normal " style="  font-size: 3rem; color:azure">
+    <span style="margin-left:40rem;" >  <%=course.name%></span>
+    </h1>
+    <div class="col-6 mb-3" offset-3 style=" margin-left: 23rem;">
+
+      <div class="card ms-13 bg-success p-2 text-dark bg-opacity-10" style="width: 48rem;  ">
+        <img src="<%=course.image%>" class="card-img-top" alt="..." style="height: 25rem;">
+        <div class="card-body"  style="color: rgba(234, 209, 209, 0.837);">
+          <p class="card-text ">
+          <h1 class="fw-normal fs-2" style="color:azure">Description:</h1>
+          <%=course.description%>
+            </p>
+        </div>
+        <div class="card-body">
+          <ul class=" card-text list-group list-group-flush">
+           
+            <li class="list-group-item">
+              <h1 class="fw-normal fs-2">Price:</h1>$<%=course.price%>
+            </li>
+            <li class="list-group-item">
+              <h1 class="fw-normal fs-2">Rating:</h1>
+              <%=course.rating%>
+            </li>
+          </ul>
+        </div>
+        <div class="card-body d-grid gap-2">
+          <a href="/courses/enroll" class="btn btn-outline-light">Enroll Now</a>
+          <!-- <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a> -->
+        </div>
+      </div>
+    </div>
+  </section>

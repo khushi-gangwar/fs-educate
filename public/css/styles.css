@@ -1,0 +1,90 @@
+* {
+    
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+}
+li a:hover {
+     font-weight: bold;
+     text-decoration:underline;
+}
+image{
+    height:25rem;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+ .container .container-fluid{
+    margin: 0px;
+    padding: 0px;
+    width: 130%;  
+
+
+} 
+a{
+    text-decoration: none;
+}
+#background{
+     background: rgba(11, 44, 62, 0.8) url('\images\bg.jpg') no-repeat center;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100vh;
+    padding: 0px; width: 150%;  
+    margin: 0px;
+
+}
+.background2{
+    background: rgba(11, 44, 62, 0.8) url('\images\bg.jpg') no-repeat center;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 180vh;
+    padding: 0px; width: 115%;  
+    margin: 0px;
+}
+.background3{
+    background:  rgba(11, 44, 62, 0.8) url('\images\bg.jpg') no-repeat center;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 180vh;
+    padding: 0px; width: 115%;  
+    margin: 0px;
+}
+.background4{
+    background:  rgba(11, 44, 62, 0.8) url('\images\bg.jpg') no-repeat center;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 180vh;
+    padding: 0px; width: 115%;  
+    margin: 0px;
+}
+ .submit{
+    background:  rgba(11, 44, 62, 0.8) url('\images\bg.jpg') no-repeat center;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 101vh;
+    padding: 80px; width: 101%;  
+    margin: 0px;
+}
+.carousel-inner > .item > img {
+    width:80%; /* Or try to use important */
+    height:auto;
+    
+  }
+  .slide{
+    margin-left:22rem
+  }
+/* .carousel-item{
+    margin-left: 15rem;   
+} */
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right:0px; 
+     padding-left:0px;
+    margin-right:0px; 
+     margin-left: 0px;
+}
+.mt-5 {
+    margin-top: 0rem;
+}
