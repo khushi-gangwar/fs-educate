@@ -42,17 +42,19 @@
             
                <div class="card ms-20" style="width: 80%; margin-left: 10rem; ">
                
-                  <p class="card-text" >  <% for (let course of courses) {%>
+                  <p class="card-text" > 
+                     <% for (let course of courses) {%>
            <ul style=" background-color: rgba(55, 166, 196, 0.471);">
             
 
                     <li style=" margin-left: 3rem; text-align: center; ">
 
-                        <a href="courses/<%=course._id%>" class="link" style="  color: black; font-size: 1.5rem; font-weight:light;"><%=course.name%></a>  </li>
+                        <a href="/course/<%=course._id%>" class="link" style="  color: black; font-size: 1.5rem; font-weight:light;">
+                          <%=course.name%></a>  </li>
            </ul>
                <% }%> 
                   </p>
                 </div>
            
-            </div>
+            
           </section>

@@ -22,7 +22,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 
-mongoose.connect("mongodb://localhost:27017/feducateDB",
+mongoose.connect("mongodb+srv://Khushi_g:5050217k@cluster0.xvnufn0.mongodb.net/feducateDB",
     { useNewUrlParser: true });
 
 const db = mongoose.connection;
@@ -85,6 +85,13 @@ app.post('/enroll', (req, res) => {
 // res.send('you made it');
 // }); 
 
-app.listen(3000, function () {
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
+app.listen(port);
+
+app.listen(port, function () {
     console.log("Server started on port 3000.");
 });
+

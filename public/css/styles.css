@@ -13,7 +13,7 @@ image{
 }
 li{
     text-decoration: none;
-    list-style: none;
+    
 }
  .container .container-fluid{
     margin: 0px;
@@ -30,7 +30,7 @@ a{
     background-size: cover;
     background-blend-mode: darken;
     height: 100vh;
-    padding: 0px; width: 150%;  
+    padding: 0px;   
     margin: 0px;
 
 }
@@ -39,7 +39,7 @@ a{
     background-size: cover;
     background-blend-mode: darken;
     height: 180vh;
-    padding: 0px; width: 115%;  
+    padding: 0px; width: 121%;  
     margin: 0px;
 }
 .background3{
@@ -55,7 +55,7 @@ a{
     background-size: cover;
     background-blend-mode: darken;
     height: 180vh;
-    padding: 0px; width: 115%;  
+    padding: 0px; width: 121.5%;  
     margin: 0px;
 }
  .submit{
