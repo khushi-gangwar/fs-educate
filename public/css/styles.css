@@ -38,24 +38,24 @@ a{
     background: rgba(11, 44, 62, 0.8) url('\images\bg.jpg') no-repeat center;
     background-size: cover;
     background-blend-mode: darken;
-    height: 180vh;
-    padding: 0px; width: 121%;  
-    margin: 0px;
+    
+    height: 80vh;
+
+    max-width: 100%;
+    text-align: center;
 }
 .background3{
     background:  rgba(11, 44, 62, 0.8) url('\images\bg.jpg') no-repeat center;
     background-size: cover;
     background-blend-mode: darken;
-    height: 180vh;
-    padding: 0px; width: 115%;  
-    margin: 0px;
+
 }
 .background4{
     background:  rgba(11, 44, 62, 0.8) url('\images\bg.jpg') no-repeat center;
     background-size: cover;
     background-blend-mode: darken;
-    height: 180vh;
-    padding: 0px; width: 121.5%;  
+    
+    padding: 0px;   
     margin: 0px;
 }
  .submit{
@@ -72,7 +72,9 @@ a{
     
   }
   .slide{
-    margin-left:22rem
+    max-width: auto;
+    display: flex; 
+    justify-content: center;
   }
 /* .carousel-item{
     margin-left: 15rem;   
