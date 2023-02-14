@@ -6,6 +6,7 @@ const path = require("path");
 const mongoose = require("mongoose");
 const ejsMate = require('ejs-mate');
 const Course = require('./models/educate')
+const PORT = process.env.PORT || 3030;
 
 
 const _ = require("lodash");
@@ -87,7 +88,11 @@ app.post('/enroll', (req, res) => {
 
 
 
-app.listen(3000, function () {
-    console.log("Server started on port 3000.");
-});
+// app.listen(3000, function () {
+//     console.log("Server started on port 3000.");
+// });
 
+
+app.listen(PORT, () => {
+    console.log(`server started on port ${PORT}`);
+  });
